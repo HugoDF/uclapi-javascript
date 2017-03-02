@@ -1,2 +1,2 @@
-# js-uclapi
+# uclapi
 JavaScript wrapper for the UCL API
