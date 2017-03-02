@@ -1,0 +1,34 @@
+{
+  "name": "uclapi",
+  "version": "1.0.0",
+  "description": "JavaScript wrapper for the UCL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "bundle": "browserify index.js -o bundle.js -t [ bubleify ]",
+    "bundle:dist": "browserify index.js -o bundle.dist.js -t bubleify -t [ uglifyify -c ]"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoDF/js-uclapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HugoDF/js-uclapi/issues"
+  },
+  "homepage": "https://github.com/HugoDF/js-uclapi#readme",
+  "dependencies": {
+    "axios": "^0.15.3"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "browserify": "^14.1.0",
+    "bubleify": "^0.7.0",
+    "moxios": "^0.3.0",
+    "proxyquire": "^1.7.11",
+    "sinon": "^1.17.7",
+    "uglifyify": "^3.0.4"
+  }
+}
