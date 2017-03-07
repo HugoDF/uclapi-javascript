@@ -1,6 +1,6 @@
 {
   "name": "uclapi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript wrapper for the UCL API",
   "main": "index.js",
   "scripts": {
